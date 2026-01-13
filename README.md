@@ -1,0 +1,3 @@
+- `FunctionModifierDemo.sol` – demonstrates constructor, onlyOwner access control, and a noReentrancy modifier protecting a recursive decrement function.
+- `TokenBank.sol` – simple ETH bank with deposit, withdraw, and internal balance transfer between users. Uses events to log all operations and an owner‑only view for total contract balance.
+- `NftFactory.sol` – minimal NFT‑style factory that mints tokens with URIs, stores ownership in a struct/mapping, and emits Mint/Transfer events. Not a full ERC‑721, but useful for practicing events and factory patterns.
